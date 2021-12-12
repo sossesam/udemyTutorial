@@ -1,0 +1,3 @@
+function sagy() {
+    alert(Date())
+}

@@ -13,18 +13,20 @@
   justify-content: center;
   align-items: center;
 }
+.btn-outline-success:hover{
+    background-color:#31780b ;
+    text-transform: uppercase;
+    font-weight:bold;
+}
 
-.bigbox{
-    position:relative;
-    display: flex;
-   justify-content: space-around;
-   align-items: center;
-width: 80%;
-height: 80%;
-background-color: brown;
+.navbar-brand>img{
+    width: 200px;
+    
 }
-#red{
-    width: 100px;
-    height: 200px;
-    background-color: cadetblue;
+.carousel-item{
+    height: 580px;
 }
+img:hover{
+    filter: grayscale(100%);
+  }
+
